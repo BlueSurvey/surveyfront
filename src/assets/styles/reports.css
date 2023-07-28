@@ -1,0 +1,40 @@
+.container_reports {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+
+.container_report{
+    border: solid 1px var(--lightGray);
+    /* box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.1); */
+    width: 50rem;
+    border-radius: 1rem;
+
+}
+
+
+.title_report {
+    color: var(--blackColor);
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
+}
+
+.p_answer {
+    margin-top: 0;
+    font-weight: 300;
+}
+
+.content_report {
+    padding: 0rem 2rem;
+}
+
+.button_download {
+    background-color: var(--greenColor);
+    color: var(--whiteColor);
+}
+
+.title_survey_report {
+    margin-bottom: 2rem;
+}
