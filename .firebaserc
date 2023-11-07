@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "bluesurvey-2efd0",
+    "bluesurvey": "bluesurvey-2efd0"
+  },
+  "targets": {},
+  "etags": {}
+}
