@@ -1,0 +1,29 @@
+.header {
+    background-color: var(--blueColor);
+    margin-bottom: 3rem;
+}
+
+.ul {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    font-size: 1.6rem;
+    padding: 0
+}
+
+.link {
+    color: var(--whiteColor);
+    text-decoration: none;
+}
+
+.nav {
+    padding: 3rem 0rem;
+}
+
+@media (min-width: 768px) {
+    .ul {
+        justify-content: left;
+    }
+}
